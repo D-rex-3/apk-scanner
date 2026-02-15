@@ -53,4 +53,4 @@ def analyze():
     return render_template("report.html",findings=findings,risk_score=risk_score)
     
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
